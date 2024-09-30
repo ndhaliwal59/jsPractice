@@ -1,0 +1,75 @@
+
+h1{
+  text-align: center;
+  font-size: 2.8rem;
+}
+h2{
+  text-align: center;
+  font-size: 1.8rem;
+}
+p{
+  font-size: 1.2rem;
+  margin-bottom: .5em;
+  margin-top: .1em;
+}
+.scoreText{
+  font-size: 1.2rem;
+}
+
+
+
+body{
+  margin: 0;
+}
+
+.scoreBox{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.scoreBoard{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ text-align: center;
+ width: 15%;
+ padding: 1.2em 1em ;
+ border: 1px solid black;
+}
+
+
+svg{
+  height: 125px;
+  padding: 0;
+  margin: 1em 2em;
+}
+
+svg:hover {
+	-webkit-transform: translateY(-1px);
+	transform: translateY(-5px);
+}
+
+.move{
+  text-align: center;
+  margin: -.8em;
+}
+
+.botAction,
+.userAction{
+  height: 200px;
+}
+
+
+.userAction:hover {
+	-webkit-transform: translateY(-1px);
+	transform: translateY(-0px);
+}
+.botAction:hover {
+	-webkit-transform: translateY(-1px);
+	transform: translateY(-0px);
+}
+
+.hidden{
+  opacity: 0;
+}
+
