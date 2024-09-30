@@ -1,0 +1,66 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  text-align: center;
+}
+.box{
+  background-color: rgb(255, 255, 255);
+  width: 75%;
+  padding: 2em;
+  border-radius: 13px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.form{
+  width: 100%;
+  margin-left: 1em;
+  height: 25px;
+  font-size: 1rem;
+  outline-style: none;
+}
+.date{
+  margin-right: 0.8em;
+}
+
+.add{
+  margin-top: 1em;
+  padding: 1em 1.5em;
+  font-size: 1rem;
+  background-color: green;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 2.5em;
+}
+
+table{
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+td{
+  padding: 0.2em;
+}
+td, th{
+  border: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+
+}
+
+span {
+  text-align: center;
+  font-size: 1.1rem;
+
+}

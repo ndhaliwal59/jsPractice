@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="box">
+    <h1>Expanse Tracker</h1>
+    <div class="info">
+      <div class="flex">
+        <p>Name:</p>
+        <input type="text" id="input-box" class="form" placeholder="What was your expense"></input>
+      </div>
+      <div class="flex">
+        <p>Date:</p>
+        <input type="date" id="datePicker" class="form date">
+        <p>Amount:</p>
+        <input type="text" id="expenseAmount" class="form">
+      </div>
+      <div class="flex">
+        <button class="add"  onclick=" addTask() ">Add Expense</button>
+      </div>
+    </div>
+    <table id="table">
+      <tr>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Expense</th>
+        <th></th>
+      </tr>
+
+    </table>
+  </div>
+  
+</body>
+</html>
