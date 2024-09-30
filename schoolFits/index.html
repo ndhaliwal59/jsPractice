@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School fits</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" defer ></script>
+  
+</head>
+<body>
+  <h1>School fits</h1>
+  <div class="main-body">
+    <div class="boxes1">
+      <div class="addBox">
+        <h3>Add Item</h3>
+        <div class="addTypeDiv">
+          <h4>Type:</h4>
+          <input type="radio" class="checkbox1" name="group1" id="addTop"/>
+          <p>Top</p>
+          <input type="radio" class="checkbox1" name="group1" id="addBottom"/>
+          <p>Bottom</p>
+        </div>
+        <div class="addTypeDiv">
+          <h4>Name:</h4>
+          <input type="text" class="inputText" id="addName"/>
+        </div>
+        <div class="submitDiv">
+          <button class="submit" id="addButton" >Submit</button>
+        </div>
+      </div>
+
+      <div class="addBox">
+        <h3>Delete Item</h3>
+        <div class="addTypeDiv">
+          <h4>Type:</h4>
+          <input type="radio" class="checkbox1" name="group1" id="delTop"/>
+          <p>Top</p>
+          <input type="radio" class="checkbox1" name="group1" id="delBottom"/>
+          <p>Bottom</p>
+        </div>
+        <div class="addTypeDiv">
+          <h4>Name:</h4>
+          <input type="text" class="inputText" id="delName"/>
+        </div>
+        <div class="submitDiv">
+          <button class="submit" id="deleteButton">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="fit-display">
+      <div class="headerDiv hdivL">Day</div>
+      <div class="headerDiv">1</div>
+      <div class="headerDiv">2</div>
+      <div class="headerDiv">3</div>
+      <div class="headerDiv">4</div>
+      <div class="headerDiv">5</div>
+
+      <div class="sideHDiv">Tops</div>
+      <div class="itemDiv" id="top1"></div>
+      <div class="itemDiv" id="top2"></div>
+      <div class="itemDiv" id="top3"></div>
+      <div class="itemDiv" id="top4"></div>
+      <div class="itemDiv" id="top5"></div>
+
+      <div class="sideHDiv">Bottom</div>
+      <div class="itemDiv" id="bottom1"></div>
+      <div class="itemDiv" id="bottom2"></div>
+      <div class="itemDiv" id="bottom3"></div>
+      <div class="itemDiv" id="bottom4"></div>
+      <div class="itemDiv" id="bottom5"></div>
+
+  </div>
+
+  <button class="submitBig" id="submit">Submit</button>
+
+
+
+  
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+
+h1, h3{
+  text-align: center;
+  margin-bottom: .2em;
+}
+h4{
+  margin: .8em .8em .8em .0em;
+
+}
+body{
+  margin: 0;
+
+}
+
+.main-body{
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  flex-direction: column;
+}
+
+.fit-display{
+  width: 65%;
+
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.itemDiv{
+  min-width: 150px;
+  padding: 2em 0 ;
+  border-bottom:1px solid black;
+  border-right: 1px solid black;
+}
+.headerDiv{
+  min-width: 150px;
+  padding: 1em 0;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;;
+}
+.hdivL{
+  border-left: 1px solid black;
+  min-width: 90px;
+}
+
+
+.sideHDiv{
+  min-width: 90px;
+  padding: 2em 0;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+
+.boxes1{
+  display: flex;
+  flex-direction: row;
+}
+.addBox{
+  background-color: lightgrey;
+  width: 22%;
+  height: auto;
+  min-width: 300px;
+  border-radius: 10px;
+  margin: 2em 1em;
+  
+}
+.addTypeDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+input.checkbox1{
+  margin: 1em;
+}
+
+.inputText{
+  padding: .2em;
+  font-size: .8rem;
+  outline: none;
+}
+
+.submitDiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.submit{
+  margin: 1em;
+  margin-bottom: 1.5em;
+  padding: 1em 2em;
+  font-weight: bold;
+  font-size: .9rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.submitBig{
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: .7em 1.2em;
+  border-radius: 15px;
+  border: none;
+  margin: 1em;
+  background-color: dodgerblue;
+}
